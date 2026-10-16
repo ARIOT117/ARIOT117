@@ -1,8 +1,8 @@
-<h1 align="center">Diego</h1>
+<h1 align="center">Diego Esparza</h1>
 
 <p align="center">
   <b>Full-stack developer · Databases & AI integration</b><br>
-  I build software that runs on your own machine: a local-first AI assistant, a Linux setup generator, and the databases behind team apps.
+  I build software that runs on your own machine: a local-first AI assistant over my notes, Linux setup tooling, and the databases behind team apps.
 </p>
 
 <p align="center">
@@ -15,61 +15,77 @@
 
 ## What I build
 
-### ARDANG — local-first voice assistant · *solo project*
-A private voice assistant for my PC and phone that runs AI models locally instead of sending everything to the cloud.
-- **Problem:** cloud assistants need an internet connection and send your data off your machine.
-- **What it does:** voice commands, local LLMs through Ollama, desktop automation and Obsidian integration.
-- **My role:** everything — architecture, backend, integrations and testing.
-- **Stack:** Python · Ollama · Linux
-- **→** [Project overview](https://github.com/ARIOT117/ARDANG-showcase) *(source is private, available on request)*
+### ARDANG — local-first AI assistant over my notes · *solo project*
+A personal assistant that answers questions from my Obsidian vault using a language model running on my own PC — no cloud, and every answer shows which notes it came from.
+- **What it does today:** searches the vault, selects and reads only the relevant notes within a size budget, asks a local Ollama model, and checks that every citation points to a note that was actually sent. CLI plus a PySide6 desktop window.
+- **Design rules:** read-only by default; the model gets no tools and never touches the vault; writing a note only happens on an explicit user command.
+- **My role:** everything — architecture, implementation, tests and documentation.
+- **Stack:** Python (standard library core) · Ollama · PySide6 · Linux
+- **→** [Project overview](https://github.com/ARIOT117/ARDANG-showcase)
 
-### Mi Linux — personalized Linux post-install · *team project*
+### Mi Linux — personalized Linux post-install · *team project, front end*
 A web platform that asks about your profile, hardware and workflow, then generates a post-install script you can review and run.
-- **Team:** built with [@christianestrada1102](https://github.com/christianestrada1102).
-- **→** [milinux.app](https://milinux.app) · [Repo](https://github.com/christianestrada1102/Mi-Linux)
+- **My role:** front end.
+  - Built the questionnaire interface with HTML and CSS, where users describe their profile and hardware.
+  - Rewrote the scroll and animation logic from JavaScript to pure CSS, fixing the mockup preview and its accessibility.
+- **Stack:** HTML · CSS · JavaScript
+- **→** [milinux.app](https://milinux.app) · [Repo](https://github.com/christianestrada1102/Mi-Linux) · built with [@christianestrada1102](https://github.com/christianestrada1102)
 
-### Zumek — team app · *team project*
-- **My role:** database design and configuration.
-- **Stack:** TypeScript · SQL
+### Zumek — budget-first weekly meal planner · *team project, database & UI design*
+A cross-platform app (web, Android, iOS) that builds a weekly meal plan starting from the money you have, real product package sizes and what is already in your pantry.
+- **My role:** database design and configuration, and UI designs for the front end.
+- **Stack:** TypeScript · React Native (Expo) · PostgreSQL · Supabase
+- **→** [Repo](https://github.com/Gangbangers-Evolution/Zumek)
 
-### Second brain — Obsidian vault sync · *solo project*
-Keeps my Obsidian vaults in sync across my Linux laptop and desktop with Syncthing, plus an AI agent that helps manage the notes.
-- **Stack:** Syncthing · Linux · AI agents
-
-<sub>Also: <a href="https://catstore-puce.vercel.app">CATSTORE</a> — static storefront site deployed on Vercel.</sub>
+<sub>Also: <a href="https://catstore-puce.vercel.app">CATSTORE</a> — static storefront deployed on Vercel.</sub>
 
 ---
 
 ## Tech stack
+<sub>Each row links to a public project that uses it.</sub>
 
-**Languages**<br>
-<img src="https://skillicons.dev/icons?i=py,ts,js,java,html,css" alt="Python, TypeScript, JavaScript, Java, HTML, CSS">
+| Area | Technologies | Evidence |
+| --- | --- | --- |
+| Languages | <img src="https://skillicons.dev/icons?i=py,ts,js,html,css" alt="Python, TypeScript, JavaScript, HTML, CSS"> | [ARDANG overview](https://github.com/ARIOT117/ARDANG-showcase) · [Zumek](https://github.com/Gangbangers-Evolution/Zumek) · [CATSTORE](https://github.com/ARIOT117/CATSTORE) · [Mi Linux](https://github.com/christianestrada1102/Mi-Linux) |
+| Mobile | <img src="https://skillicons.dev/icons?i=react" alt="React Native"> React Native · Expo | [Zumek](https://github.com/Gangbangers-Evolution/Zumek) |
+| Data | <img src="https://skillicons.dev/icons?i=postgres,supabase" alt="PostgreSQL, Supabase"> | [Zumek](https://github.com/Gangbangers-Evolution/Zumek) |
+| AI | Ollama (local LLMs) | [ARDANG overview](https://github.com/ARIOT117/ARDANG-showcase) |
+| Tools | <img src="https://skillicons.dev/icons?i=linux,git,github,vercel" alt="Linux, Git, GitHub, Vercel"> | [CATSTORE](https://catstore-puce.vercel.app) |
 
-**Databases & backend**<br>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,firebase" alt="MySQL, PostgreSQL, SQLite, Firebase">
-
-**Tools & environment**<br>
-<img src="https://skillicons.dev/icons?i=linux,bash,git,github,vercel" alt="Linux, Bash, Git, GitHub, Vercel">
+<!-- Cuando publiques javafx-jdbc-crud, sql-database-design y expense-tracker-firebase,
+     agrega una fila: | Also | java, mysql, sqlite, firebase | enlaces | -->
 
 ---
 
 ## Currently
-- Building ARDANG one feature at a time.
+- Building ARDANG one phase at a time.
 - Studying for a TSU in Multiplatform Software Development at Universidad Tecnológica de Chihuahua (UTCH).
 
 ## Open to
 - Software development internships (full-stack, backend or data) — remote or in Chihuahua, Mexico.
 - Working in English and Spanish.
 
+## Contact
+
+<p>
+  <a href="mailto:diegoisaiuwu@gmail.com"><img src="https://img.shields.io/badge/Email-diegoisaiuwu%40gmail.com-555555?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/diego-isai-esparza-barron-56a38a43b/"><img src="https://img.shields.io/badge/LinkedIn-Diego_Esparza-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <!-- Portafolio: descomenta cuando exista
+  <a href="[COMPLETAR URL]"><img src="https://img.shields.io/badge/Portfolio-visit-111111?style=flat&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  -->
+</p>
+
 ---
 
 <details>
 <summary><b>Versión en español</b></summary>
 
-Soy desarrollador full-stack enfocado en bases de datos e integración de IA, estudiante de TSU en Desarrollo de Software Multiplataforma en la UTCH (Chihuahua, México).
+Soy Diego Esparza, desarrollador full-stack enfocado en bases de datos e integración de IA, estudiante de TSU en Desarrollo de Software Multiplataforma en la UTCH (Chihuahua, México).
 
-- **ARDANG:** asistente de voz local-first con IA (Python, Ollama).
-- **Mi Linux:** plataforma que genera un script post-instalación de Linux según tu perfil y hardware (equipo).
-- **Zumek:** app en equipo; mi rol es el diseño y la configuración de la base de datos.
-- **Busco:** prácticas profesionales como desarrollador.
+- **ARDANG:** asistente de IA local-first que responde desde mis notas de Obsidian con un modelo local (Python, Ollama).
+- **Mi Linux:** plataforma que genera un script post-instalación de Linux; hice el front end.
+- **Zumek:** planificador de comidas basado en presupuesto; hice el diseño de la base de datos y de la interfaz.
+- **Busco:** prácticas full-stack, backend o de datos, remoto o en Chihuahua.
+
+Contacto: diegoisaiuwu@gmail.com · [LinkedIn](https://www.linkedin.com/in/diego-isai-esparza-barron-56a38a43b/)
 </details>
