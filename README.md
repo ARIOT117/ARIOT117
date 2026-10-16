@@ -47,9 +47,9 @@ A cross-platform app (web, Android, iOS) that builds a weekly meal plan starting
 | Area | Technologies | Evidence |
 | --- | --- | --- |
 | Languages | <img src="https://skillicons.dev/icons?i=py,ts,js,html,css" alt="Python, TypeScript, JavaScript, HTML, CSS"> | [ARDANG overview](https://github.com/ARIOT117/ARDANG-showcase) · [Zumek](https://github.com/Gangbangers-Evolution/Zumek) · [CATSTORE](https://github.com/ARIOT117/CATSTORE) · [Mi Linux](https://github.com/christianestrada1102/Mi-Linux) |
-| Mobile | <img src="https://skillicons.dev/icons?i=react" alt="React Native"> React Native · Expo | [Zumek](https://github.com/Gangbangers-Evolution/Zumek) |
+| Mobile | <img src="https://skillicons.dev/icons?i=react" height="48" alt="React Native" align="middle"> React Native · Expo | [Zumek](https://github.com/Gangbangers-Evolution/Zumek) |
 | Data | <img src="https://skillicons.dev/icons?i=postgres,supabase" alt="PostgreSQL, Supabase"> | [Zumek](https://github.com/Gangbangers-Evolution/Zumek) |
-| AI | Ollama (local LLMs) | [ARDANG overview](https://github.com/ARIOT117/ARDANG-showcase) |
+| AI | <img src="assets/ollama.svg" height="48" alt="Ollama" align="middle"> Ollama (local LLMs) | [ARDANG overview](https://github.com/ARIOT117/ARDANG-showcase) |
 | Tools | <img src="https://skillicons.dev/icons?i=linux,git,github,vercel" alt="Linux, Git, GitHub, Vercel"> | [CATSTORE](https://catstore-puce.vercel.app) |
 
 <!-- Cuando publiques javafx-jdbc-crud, sql-database-design y expense-tracker-firebase,
